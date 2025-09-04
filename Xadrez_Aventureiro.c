@@ -14,3 +14,23 @@ int main() {
     // Movimento da Torre (for)
     // Move-se 5 casas para a direita
     // ----------------------------
+
+    printf("Movimento da Torre:\n");
+    for (int i = 0; i < casas_torre; i++) {
+        printf("Direita\n");
+    }
+
+    printf("\n"); // Espaço entre movimentos
+
+    // ----------------------------
+    // Movimento do Bispo (while)
+    // Move-se 5 casas na diagonal para cima e à direita
+    // ----------------------------
+    printf("Movimento do Bispo:\n");
+    int passos_bispo = 0;
+    while (passos_bispo < casas_bispo) {
+        printf("Cima, Direita\n");
+        passos_bispo++;
+    }
+
+    printf("\n"); // Espaço entre movimentos
